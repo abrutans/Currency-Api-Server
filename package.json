@@ -1,0 +1,21 @@
+{
+  "name": "node-serve",
+  "version": "0.0.1",
+  "description": "a node server for api proxy",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node main.js",
+    "dev":"nodemon main.js "
+  },
+  "author": "andbru",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "type": "module"
+}
